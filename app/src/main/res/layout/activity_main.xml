@@ -41,7 +41,7 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/light_purple"
-            android:text="7"
+            android:text="@string/_7"
             android:textSize="18sp" />
 
         <Button
@@ -51,7 +51,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/light_purple"
-            android:text="8"
+            android:text="@string/_8"
             android:textSize="18sp" />
 
         <!-- Button 8 -->
@@ -62,7 +62,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/light_purple"
-            android:text="9"
+            android:text="@string/_9"
             android:textSize="18sp" />
 
         <!-- Button 9 in the center -->
@@ -73,8 +73,9 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/light_purple"
-            android:text="C"
-            android:textSize="18sp" />
+            android:src="@drawable/baseline_clear_24"
+            android:textSize="18sp"
+            android:contentDescription="@string/clear"/>
 
         <!-- Button 4 -->
         <Button
@@ -84,7 +85,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/light_purple"
-            android:text="4"
+            android:text="@string/_4"
             android:textSize="18sp" />
 
         <!-- Button 5 -->
@@ -95,7 +96,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/light_purple"
-            android:text="5"
+            android:text="@string/_5"
             android:textSize="18sp" />
 
         <!-- Button 6 -->
@@ -106,7 +107,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/light_purple"
-            android:text="6"
+            android:text="@string/_6"
             android:textSize="18sp" />
 
         <!-- Button Multiply -->
@@ -117,7 +118,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/light_purple"
-            android:text="×"
+            android:text="@string/x"
             android:textSize="18sp" />
 
         <!-- Button 1 -->
@@ -128,7 +129,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/light_purple"
-            android:text="1"
+            android:text="@string/_1"
             android:textSize="18sp" />
 
         <!-- Button 2 -->
@@ -139,7 +140,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/light_purple"
-            android:text="2"
+            android:text="@string/_2"
             android:textSize="18sp" />
 
         <!-- Button 3 -->
@@ -150,7 +151,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/light_purple"
-            android:text="3"
+            android:text="@string/_3"
             android:textSize="18sp" />
 
         <!-- Button Subtract -->
@@ -172,7 +173,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/light_purple"
-            android:text="0"
+            android:text="@string/_0"
             android:textSize="18sp" />
 
         <!-- Button Decimal -->
@@ -194,8 +195,9 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/light_purple"
-            android:text="="
-            android:textSize="18sp" />
+            android:src="@drawable/baseline_check_24"
+            android:textSize="18sp"
+            android:contentDescription="@string/equals"/>
 
         <!-- Button Add -->
         <Button
@@ -224,8 +226,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end|bottom"
             android:layout_margin="16dp"
-            android:layout_marginLeft="16dp"
-            android:contentDescription="Settings"
+            android:layout_marginStart="16dp"
+            android:contentDescription="@string/settings"
             android:src="@drawable/ic_settings"
             app:backgroundTint="@color/light_purple" />
 
